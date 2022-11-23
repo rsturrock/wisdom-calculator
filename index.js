@@ -9,7 +9,7 @@ const spiritualPractice = ['Meditating', 'Reflecting', 'Performing Yoga', 'Prayi
 
 const spiritualSubject = ['under a banyan tree', 'on the impermanence of life', 'on a sacred mountain', 'to the one above', 'on awareness and the Self', 'for the enlightened path'];
 
-const spiritualResult = ['will bring you peace', 'bears the fruit of enlightenment', 'will cultivate a strong mind and body', 'will fill you with joy', 'grounds you in Being', 'will lead you back to the start of your journey'];
+const spiritualResult = ['will bring you peace', 'bears the fruit of Enlightenment', 'will cultivate a strong mind and body', 'will fill you with joy', 'grounds you in Being', 'will lead you back to the start of your journey'];
 
 const randomizeWordsOfWisdom = () => {
 
@@ -20,4 +20,4 @@ const randomizeWordsOfWisdom = () => {
     return `${spiritualPractice[randomIndexSpiritualPractice]} ${spiritualSubject[randomIndexSpiritualSubject]} ${spiritualResult[randomIndexSpiritualResult]}.`
 }
 
-console.log(randomizeWordsOfWisdom());
+console.log(randomizeWordsOfWisdom())
