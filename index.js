@@ -19,3 +19,4 @@ const randomizeWordsOfWisdom = () => {
     return randomWordsOfWisdom;
 }
 
+console.log(randomizeWordsOfWisdom())
