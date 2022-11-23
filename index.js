@@ -11,6 +11,11 @@ const spiritualSubject = ['under a banyan tree', 'on the impermanence of life', 
 
 const spiritualResult = ['will bring you peace', 'bears the fruit of enlightenment', 'will cultivate a strong mind and body', 'will fill you with joy', 'grounds you in Being', 'will lead you back to the start of your journey'];
 
-console.log(spiritualPractice[randomIndexSpiritualPractice]);
-console.log(spiritualSubject[randomIndexSpiritualSubject]);
-console.log(spiritualResult[randomIndexSpiritualResult]);
+let randomWordsOfWisdom = [];
+
+const randomizeWordsOfWisdom = () => {
+    randomWordsOfWisdom.push(`${spiritualPractice[randomIndexSpiritualPractice]} ${spiritualSubject[randomIndexSpiritualSubject]} ${spiritualResult[randomIndexSpiritualResult]}.`)
+
+    return randomWordsOfWisdom;
+}
+
